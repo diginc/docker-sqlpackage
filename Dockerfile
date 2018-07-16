@@ -10,3 +10,4 @@ RUN mkdir /opt/sqlpackage && \
   chmod +x sqlpackage && \
   ln -s /opt/sqlpackage/sqlpackage /usr/local/bin/sqlpackage
 
+ENTRYPOINT ["/usr/local/bin/sqlpackage"]
