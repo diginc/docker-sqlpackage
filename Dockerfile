@@ -9,5 +9,3 @@ RUN mkdir /opt/sqlpackage && \
   rm sqlpackage-linux-x64-latest.zip && \
   chmod +x sqlpackage && \
   ln -s /opt/sqlpackage/sqlpackage /usr/local/bin/sqlpackage
-
-ENTRYPOINT ["/usr/local/bin/sqlpackage"]
